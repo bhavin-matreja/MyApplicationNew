@@ -6,7 +6,7 @@ import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
-    private int inc = 1;
+    private int inc = 100;
     private int inc2 = 10;
 
     @Override
