@@ -6,7 +6,8 @@ import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
-    private int inc = 0;
+    private int inc = 1;
+    private int inc2 = 10;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,9 +17,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void feature1() {
         Log.d("Main Activity", " feature One");
-    }
-    public void develop() {
-
     }
 
     public void feature_one() {
