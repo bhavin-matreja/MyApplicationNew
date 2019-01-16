@@ -15,9 +15,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void feature1() {
-        Log.d("Main Activity", " feature1");
+        Log.d("Main Activity", " feature One");
     }
     public void develop() {
+
+    }
+
+    public void feature_one() {
 
     }
 
