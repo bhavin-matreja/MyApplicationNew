@@ -6,7 +6,7 @@ import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
-    private int inc = 10;
+    private int inc = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,6 +14,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    public void feature1() {
+        Log.d("Main Activity", " feature1");
+    }
     public void develop() {
 
     }
